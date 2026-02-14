@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+}
+
+aside{
+    border: solid;
+    width: 15%;
+    text-align: center;
+}
+
+main{
+    width: 80%;
+    text-align: center;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+section{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+
+figure{
+    width: 15%;
+}
+
+main section article{
+    width: 25%;
+    padding-left: 5px;
+    border-right: solid;
+}
+
+main section article h2 {
+    text-align: left;
+}
+
+main section article p {
+    text-align: left;
+}
+
+footer{
+    padding: 5px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#intro-para{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.res-address{
+    width: 100%;
+    font-style: italic;
+
+}
+
+.res-logo{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.res-food{
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    padding-left: 10px;
+}
+
