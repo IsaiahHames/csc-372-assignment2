@@ -24,15 +24,8 @@ main{
     padding: 5px;
 }
 
-section{
-    border: solid;
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-}
-
 figure{
-    width: 15%;
+    width: 20%;
 }
 
 main section article{
@@ -56,9 +49,37 @@ footer{
     color: white;
 }
 
+
 #intro-para{
     margin: 0 auto;
     width: 90%;
+}
+
+#fav-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    border: solid;
+    margin: 5px;
+}
+
+#fav-sec h3 {    
+    width: 100%;
+    text-align: center;
+}
+
+#fav-sec h4{
+    width: 100%;
+    text-align: left;
+}
+
+.restaurants{
+    width: 100%;
+    border: solid;
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
 }
 
 .res-address{
@@ -78,6 +99,10 @@ footer{
     width: 175px;
     height: 175px;
     object-fit: cover;
-    padding-left: 10px;
+}
+
+.fav-btn{
+    cursor: pointer;
+    margin-left: 10px;
 }
 
